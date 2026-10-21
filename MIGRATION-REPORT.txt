@@ -1,0 +1,30 @@
+MIGRATION SUMMARY — BHUMI KALA KENDRA
+====================================
+
+Inputs inspected:
+- penganpati.zip (CodeIgniter/PHP site archive; public/uploads assets extracted)
+- pg_188407.sql.gz (MariaDB export)
+- logo.jpg (separately supplied business logo)
+
+Implemented:
+- Fully static HTML/CSS/vanilla-JavaScript website
+- Homepage, About Us, Murti Collection gallery, Contact page
+- Original business logo and original uploaded photo assets
+- Responsive navigation and image lightbox
+- SEO titles, descriptions, canonical metadata, LocalBusiness JSON-LD
+- sitemap.xml, robots.txt, 404 page, README
+- Clickable telephone and email links; Google Maps directions link
+- No contact form or PHP/database dependency
+
+Source-derived business details:
+- Business: Bhumi Kala Kendra
+- Product focus: Shadu Mati Ganpati Murtis
+- Location: Pen, Raigad, Maharashtra
+- Email: bhumikalakendrapen@gmail.com
+- Phone numbers provided by user: +91 73506 95139 and +91 84462 93959
+
+Important limitations:
+- Some database sections contain generic template/demo content (for example, unrelated portfolio/service entries and Lorem Ipsum FAQ records). These were intentionally excluded rather than misrepresented as business information.
+- Existing legacy URL redirect rules have not been installed; configure server-side redirects if preserving old deep URLs is required.
+- Visual/browser/Lighthouse testing was not executed in a real browser in this environment. Test the ZIP on staging before replacing the live website.
+- Confirm the preferred canonical domain (www or non-www) and hosting 404 configuration before launch.
